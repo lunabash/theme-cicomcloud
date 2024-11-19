@@ -111,10 +111,13 @@ button.primary:focus,
 	width: 250px;
 	height: 121px;
 }
+#header #owncloud {
+	padding-top: 7px;
+}
 #header .logo-icon {
 	background-image: url('../img/logo-icon.svg');
 	height: 34px;
-	line-height: initial;
+/*	line-height: initial; */
 }
 #owncloud {
 	padding: 3px;
