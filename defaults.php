@@ -25,7 +25,7 @@ class OC_Theme {
 	 * @return string URL
 	 */
 	public function getBaseUrl() {
-		return 'https://owncloud.org';
+		return 'https://cloud.cicom.co.za/';
 	}
 
 	/**
@@ -33,7 +33,7 @@ class OC_Theme {
 	 * @return string URL
 	 */
 	public function getSyncClientUrl() {
-		return 'https://owncloud.org/install';
+		return 'https://cloud.cicom.co.za/install';
 	}
 
 	/**
@@ -41,7 +41,7 @@ class OC_Theme {
 	 * @return string URL
 	 */
 	public function getiOSClientUrl() {
-		return 'https://apps.apple.com/us/app/id1359583808';
+		return 'https://apps.apple.com/us/app/';
 	}
 
 	/**
@@ -49,7 +49,7 @@ class OC_Theme {
 	 * @return string AppId
 	 */
 	public function getiTunesAppId() {
-		return '1359583808';
+		return '';
 	}
 
 	/**
@@ -57,7 +57,7 @@ class OC_Theme {
 	 * @return string URL
 	 */
 	public function getAndroidClientUrl() {
-		return 'https://play.google.com/store/apps/details?id=com.owncloud.android';
+		return 'https://play.google.com/store/apps/details?id=';
 	}
 
 	/**
@@ -65,7 +65,7 @@ class OC_Theme {
 	 * @return string URL
 	 */
 	public function getDocBaseUrl() {
-		return 'https://doc.owncloud.com';
+		return 'https://cloud.cicom.co.za/';
 	}
 
 	/**
@@ -73,7 +73,7 @@ class OC_Theme {
 	 * @return string title
 	 */
 	public function getTitle() {
-		return 'Custom Cloud - Custom Claim';
+		return 'Cicom Cloud - ';
 	}
 
 	/**
@@ -81,7 +81,7 @@ class OC_Theme {
 	 * @return string title
 	 */
 	public function getName() {
-		return 'Custom Cloud';
+		return 'Cicom Cloud';
 	}
 
 	/**
@@ -89,7 +89,7 @@ class OC_Theme {
 	 * @return string title
 	 */
 	public function getHTMLName() {
-		return '<b>Custom</b> Cloud';
+		return '<b>Cicom</b> Cloud';
 	}
 
 	/**
@@ -97,7 +97,7 @@ class OC_Theme {
 	 * @return string entity name
 	 */
 	public function getEntity() {
-		return 'Custom Cloud Co.';
+		return 'Cicom';
 	}
 
 	/**
@@ -105,7 +105,7 @@ class OC_Theme {
 	 * @return string slogan
 	 */
 	public function getSlogan() {
-		return 'Your custom cloud, personalized for you!';
+		return '';
 	}
 
 	/**
@@ -113,7 +113,7 @@ class OC_Theme {
 	 * @return string logo claim
 	 */
 	public function getLogoClaim() {
-		return '<a href="https://example.com">Custom Claim</a>';
+		return '<a href="https://cicom.co.za"></a>';
 	}
 
 	public function getPrivacyPolicyUrl() {
@@ -182,7 +182,7 @@ class OC_Theme {
 	 * @return string
 	 */
 	public function getMailHeaderColor() {
-		return '#745bca';
+		return '#E3010F';
 	}
 
 }
